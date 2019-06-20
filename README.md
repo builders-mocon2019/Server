@@ -8,7 +8,7 @@ API 서버. AWS Lambda, S3에서 동작함
 
 사용 방법:
 
-https://i2b5hf1h8k.execute-api.ap-northeast-2.amazonaws.com/api/image
+POST https://i2b5hf1h8k.execute-api.ap-northeast-2.amazonaws.com/api/image
 
 x-api-key에 발급 된 API 키를 넣고, body에 base64로 인코딩된 이미지를 보낸다.
 
