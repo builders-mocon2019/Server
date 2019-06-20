@@ -16,6 +16,8 @@ x-api-key에 발급 된 API 키를 넣고, body에 base64로 인코딩된 이미
 
 성공 시
 
+HTTP StatusCode: 201
+
 ```json
 {
   "success": true,
@@ -24,6 +26,8 @@ x-api-key에 발급 된 API 키를 넣고, body에 base64로 인코딩된 이미
 ```
 
 실패 시
+
+HTTP StatusCode: 4xx, 5xx
 
 ```json
 {
